@@ -35,6 +35,5 @@ public class Player : Character
         moveInput.y = 0f;
         ch.Move(moveInput * Time.deltaTime);
 
-               
     }
 }

@@ -460,7 +460,6 @@ MonoBehaviour:
   Speed: 0
   Range: 0
   Ammo: {fileID: 0}
-  joystick_1: {fileID: 906431527}
 --- !u!135 &900480600
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -893,7 +892,6 @@ GameObject:
   - component: {fileID: 1503458237}
   - component: {fileID: 1503458241}
   - component: {fileID: 1503458243}
-  - component: {fileID: 1503458242}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -997,23 +995,6 @@ MonoBehaviour:
   CharacterType: {fileID: 0}
   velocity: 3
   joystick: {fileID: 1332430353}
---- !u!114 &1503458242
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1503458236}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dd9e15345d888154bb2892b9960babb7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Damage: 0
-  Speed: 0
-  Range: 0
-  Ammo: {fileID: 0}
-  joystick_1: {fileID: 0}
 --- !u!143 &1503458243
 CharacterController:
   m_ObjectHideFlags: 0
