@@ -7,7 +7,7 @@ public class Player : Character
 {
     public float velocity = 50f;
     public FloatingJoystick joystick;
-    public FloatingJoystick joystick_1;
+    
     
     private float rotationY;
     private CharacterController ch;
@@ -30,12 +30,11 @@ public class Player : Character
 
         moveInput = Vector3.zero;
         moveInput.z = joystick.Vertical * velocity;
+
         moveInput.x = joystick.Horizontal * velocity;
         moveInput.y = 0f;
         ch.Move(moveInput * Time.deltaTime);
 
-        rotationY = Mathf.Atan2(joystick_1.Direction.x, joystick_1.Direction.y) * Mathf.Rad2Deg;
-        transform.rotation = Quaternion.Euler(0f, rotationY, 0f);
                
     }
 }
