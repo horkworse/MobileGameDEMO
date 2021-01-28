@@ -6,6 +6,6 @@ public class AmmoType : MonoBehaviour
 {
     public int Damage;
     public int Speed;
-    public int Range;
+    public int Range;  //time before despawn
     public GameObject Ammo;
 }

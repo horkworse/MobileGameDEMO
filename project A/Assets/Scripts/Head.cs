@@ -10,13 +10,12 @@ public class Head : MonoBehaviour
     public static float rotation;
     public Transform GunPoint;
     public GameObject Ammo;
-    private Transform AmmoPoint;
+
+    public static bool IsAllowedToShoot = false;
 
     void Start()
     {
         Instantiate(Gun, GunPoint.position, GunPoint.rotation, GunPoint.transform);
-        //AmmoPoint = GunPoint;
-        //AmmoPoint.transform.position += new Vector3(0, 0, 5f);
     }
 
     // Update is called once per frame
@@ -25,6 +24,12 @@ public class Head : MonoBehaviour
         rotationY = Mathf.Atan2(joystick_1.Direction.x, joystick_1.Direction.y) * Mathf.Rad2Deg;
         rotation = rotationY;
         transform.rotation = Quaternion.Euler(0f, rotationY, 0f);
-        if (Mathf.Abs(joystick_1.Direction.x) > 0.5 || Mathf.Abs(joystick_1.Direction.y) > 0.5) Instantiate(Ammo, GunPoint.position, GunPoint.rotation);
-    }
+        if (Mathf.Abs(joystick_1.Direction.x) > 0.5 || Mathf.Abs(joystick_1.Direction.y) > 0.5)
+        {
+            IsAllowedToShoot = true;
+        }
+        else IsAllowedToShoot = false;
+        
+        
+        }
 }
