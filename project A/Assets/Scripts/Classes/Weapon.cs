@@ -6,5 +6,7 @@ public class Weapon : MonoBehaviour
 {
     public int RateOfFire;
     public GameObject AmmoType;
+
+    //prefub of weapon
     public GameObject WeaponType;
 }

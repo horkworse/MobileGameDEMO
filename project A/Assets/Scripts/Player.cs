@@ -18,6 +18,7 @@ public class Player : Character
     void Start()
     {
         ch = GetComponent<CharacterController>();
+        hpChange = HP;
     }
 
     // Update is called once per frame 
@@ -26,7 +27,7 @@ public class Player : Character
     {
         if (HP < 200f)
             HP += Regen;
-        hpChange = HP;
+
 
         moveInput = Vector3.zero;
         moveInput.z = joystick.Vertical * velocity;
