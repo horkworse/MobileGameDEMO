@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class Player : Character
 {
-    public float velocity = 50f;
+    //public float velocity = 50f;
     public FloatingJoystick joystick;
     
     
@@ -32,9 +32,9 @@ public class Player : Character
 
 
         moveInput = Vector3.zero;
-        moveInput.z = joystick.Vertical * velocity;
+        moveInput.z = joystick.Vertical * Speed;
 
-        moveInput.x = joystick.Horizontal * velocity;
+        moveInput.x = joystick.Horizontal * Speed;
         moveInput.y = 0f;
         ch.Move(moveInput * Time.deltaTime);
 

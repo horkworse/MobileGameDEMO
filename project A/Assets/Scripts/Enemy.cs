@@ -8,17 +8,19 @@ public class Enemy : Character
     private float attackDelay = 1f;
     private float time = 0;
     public GameObject player;
-    public static float enemyHP;
+
+    private Rigidbody rb;
+
 
     void Start()
     {
-        enemyHP = HP;
+
     }
 
     void Update()
     {
-        //if (Player.hpChange <= 0) Destroy(gameObject);
-        if (enemyHP <= 0) Destroy(gameObject);
+        if (Player.hpChange <= 0) Destroy(gameObject);
+        if (HP <= 0) Destroy(gameObject);
         if (HP < 200f) HP += Regen;
         Move();
         if (HP <= 0) Die();
@@ -33,7 +35,6 @@ public class Enemy : Character
         }
         else
         {
-            //??
             return;
         }
     }
@@ -65,8 +66,7 @@ public class Enemy : Character
         //enemy is destroing
         Destroy(gameObject);
     }
-
-
+    
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.tag is "Bullet")
