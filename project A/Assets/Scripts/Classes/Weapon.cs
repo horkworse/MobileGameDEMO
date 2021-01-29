@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Weapon : MonoBehaviour
 {
-    public int RateOfFire;
+    public float RateOfFire;
     public GameObject AmmoType;
 
     //prefub of weapon
