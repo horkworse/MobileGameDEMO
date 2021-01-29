@@ -5,15 +5,16 @@ using UnityEngine;
 public class AmmoShot : AmmoType
 {
     private float time = 0;
+    public static float bulletDamage;
     void Start()
     {
-        //bullet = GetComponent<GameObject>();
+        bulletDamage = Damage;
     }
 
 
     void Update()
     {
-        transform.Translate(Vector3.forward * Speed * 2 * Time.deltaTime);
+        transform.Translate(Vector3.forward * Speed * Time.deltaTime);
         if (time > Range)
         {
             Destroy(gameObject);

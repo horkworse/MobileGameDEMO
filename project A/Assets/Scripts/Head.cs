@@ -18,9 +18,9 @@ public class Head : MonoBehaviour
         Instantiate(Gun, GunPoint.position, GunPoint.rotation, GunPoint.transform);
     }
 
-    // Update is called once per frame
     void Update()
     {
+        if (Player.hpChange <= 0) Destroy(gameObject);
         rotationY = Mathf.Atan2(joystick_1.Direction.x, joystick_1.Direction.y) * Mathf.Rad2Deg;
         rotation = rotationY;
         transform.rotation = Quaternion.Euler(0f, rotationY, 0f);
