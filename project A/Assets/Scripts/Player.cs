@@ -2,14 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-
 public class Player : Character
 {
-    public float velocity = 50f;
     public FloatingJoystick joystick;
     
     
-    private float rotationY;
     private CharacterController ch;
     private Vector3 moveInput;
 
@@ -32,11 +29,17 @@ public class Player : Character
 
 
         moveInput = Vector3.zero;
-        moveInput.z = joystick.Vertical * velocity;
+        moveInput.z = joystick.Vertical * Speed;
 
-        moveInput.x = joystick.Horizontal * velocity;
-        moveInput.y = 0f;
+        moveInput.x = joystick.Horizontal * Speed;
+        moveInput.y = -5f;
         ch.Move(moveInput * Time.deltaTime);
 
+    }
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.tag is "Enemy") {
+            Debug.Log("ENTERED");
+        }
     }
 }
