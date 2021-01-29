@@ -16,7 +16,9 @@ public class Enemy : Character
 
     void Update()
     {
+        if (HP < 200f) HP += Regen;
         Move();
+        if(HP<=0) Die();
     }
 
     void Attack()
@@ -24,7 +26,8 @@ public class Enemy : Character
         if (Player.hpChange > 0 )
         {
             // atacking
-            Debug.Log("attack");
+            Player.hpChange -= damage;
+            Debug.Log(Player.hpChange);
         }
         else
         {
@@ -33,7 +36,8 @@ public class Enemy : Character
         }
     }
 
-    private void Move(){
+    private void Move()
+    {
         if(time > attackDelay){
             if(transform.position == player.transform.position)
             {
@@ -51,6 +55,12 @@ public class Enemy : Character
         {
             time+=Time.deltaTime;
         }
+    }
+
+    void Die()
+    {
+        //enemy is destroing
+        Destroy(gameObject);
     }
 }
 

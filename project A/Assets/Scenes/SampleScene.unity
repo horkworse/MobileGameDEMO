@@ -975,7 +975,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   HP: 100
   Speed: 10
-  Regen: 0
+  Regen: 1
   Weapon: {fileID: 0}
   CharacterType: {fileID: 0}
   velocity: 3

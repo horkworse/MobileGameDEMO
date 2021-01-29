@@ -27,7 +27,7 @@ public class Player : Character
     {
         if (HP < 200f)
             HP += Regen;
-
+        hpChange = HP;
 
         moveInput = Vector3.zero;
         moveInput.z = joystick.Vertical * velocity;
@@ -37,6 +37,5 @@ public class Player : Character
 
         rotationY = Mathf.Atan2(joystick_1.Direction.x, joystick_1.Direction.y) * Mathf.Rad2Deg;
         transform.rotation = Quaternion.Euler(0f, rotationY, 0f);
-               
     }
 }
