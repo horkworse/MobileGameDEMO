@@ -21,15 +21,16 @@ public class Head : MonoBehaviour
     void Update()
     {
         if (Player.hpChange <= 0) Destroy(gameObject);
-        rotationY = Mathf.Atan2(joystick_1.Direction.x, joystick_1.Direction.y) * Mathf.Rad2Deg;
-        rotation = rotationY;
-        transform.rotation = Quaternion.Euler(0f, rotationY, 0f);
+        if (joystick_1.Direction.x != 0 || joystick_1.Direction.y != 0)
+        {
+            rotationY = Mathf.Atan2(joystick_1.Direction.x, joystick_1.Direction.y) * Mathf.Rad2Deg;
+            rotation = rotationY;
+            transform.rotation = Quaternion.Euler(0f, rotationY, 0f); 
+        }
         if (Mathf.Abs(joystick_1.Direction.x) > 0.5 || Mathf.Abs(joystick_1.Direction.y) > 0.5)
         {
             IsAllowedToShoot = true;
         }
         else IsAllowedToShoot = false;
-        
-        
         }
 }
