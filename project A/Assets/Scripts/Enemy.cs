@@ -77,9 +77,8 @@ public class Enemy : Character
         if (other.gameObject.tag is "Bullet")
         {
             HP -= AmmoShot.bulletDamage;
-        }       
+        }
     }
-    
 }
 
 
