@@ -9,9 +9,12 @@ public class Enemy : Character
     private float time = 0;
     public GameObject player;
 
+    private CharacterController ch;
+    private Vector3 moveVector;
+
     void Start()
     {
-
+        ch = GetComponent<CharacterController>();
     }
 
     void Update()
@@ -49,8 +52,11 @@ public class Enemy : Character
             }
             else
             {
+                moveVector.x = player.transform.position.x - transform.position.x;
+                moveVector.z = player.transform.position.z - transform.position.z;
+                moveVector.y = -5f;
                 // move to player
-                transform.position = Vector3.MoveTowards(transform.position, player.transform.position, Speed * Time.deltaTime);
+                ch.Move(moveVector * Time.deltaTime);
             }
         }
         else

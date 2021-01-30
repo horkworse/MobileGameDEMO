@@ -1,0 +1,769 @@
+Using pre-set license
+Built from '2020.2/release' branch; Version is '2020.2.2f1 (068178b99f32) revision 426360'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home Single Language; OS build 18363.1316; Version 1909; 64bit' Language: 'ru' Physical Memory: 15741 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/unityProj/MobileGameDEMO/project A
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+2687
+Successfully changed project path to: C:/unityProj/MobileGameDEMO/project A
+C:/unityProj/MobileGameDEMO/project A
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 25.08 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.2.2f1 (068178b99f32)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/unityProj/MobileGameDEMO/project A/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2060 (ID=0x1f15)
+    Vendor:   
+    VRAM:     5980 MB
+    Driver:   27.21.14.6140
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56880
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001454 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 24.85 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.449 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.000714 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.39 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.710 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1120 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 57.4 MB.
+System memory in use after: 57.4 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1561.
+Total: 1.592700 ms (FindLiveObjects: 0.176600 ms CreateObjectMapping: 0.027400 ms MarkObjects: 1.310700 ms  DeleteObjects: 0.076500 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Cartoon_Texture_Pack/WOOD/WOOD_Planks/Materials/Wood_Planks_A.mat
+  artifactKey: Guid(a46ddefb78a484643af07aed081bf055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Texture_Pack/WOOD/WOOD_Planks/Materials/Wood_Planks_A.mat using Guid(a46ddefb78a484643af07aed081bf055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6465701d771930b7d2daf9cc209c3267') in 0.572088 seconds
+  Import took 0.574297 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/Prefabs/Test_Wall.prefab
+  artifactKey: Guid(70b7cf859cfd2fc4fb79a3cd0d924fd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Test_Wall.prefab using Guid(70b7cf859cfd2fc4fb79a3cd0d924fd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b557bad669a706304f793118847923c') in 0.031743 seconds
+  Import took 0.033623 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.866266 seconds.
+  path: Assets/Cartoon_Texture_Pack/WOOD/WOOD_Planks/Materials/Wood_Planks_B.mat
+  artifactKey: Guid(0744bcab18e19e444b1498ebfd1b47b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Texture_Pack/WOOD/WOOD_Planks/Materials/Wood_Planks_B.mat using Guid(0744bcab18e19e444b1498ebfd1b47b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44891ddbbce21bebd85eaf71017fe85b') in 0.212922 seconds
+  Import took 0.215448 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/Cartoon_Texture_Pack/WOOD/WOOD_Plain/Materials/Wood_Plain_B.mat
+  artifactKey: Guid(ca5f9003d85586d4d96ea25bf9f6bb44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Texture_Pack/WOOD/WOOD_Plain/Materials/Wood_Plain_B.mat using Guid(ca5f9003d85586d4d96ea25bf9f6bb44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db8441aa7d8b6c39df9b045aa5721636') in 0.217549 seconds
+  Import took 0.219930 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/Cartoon_Texture_Pack/ROOF/ROOF_SquareTile_Flat/Materials/UnderRoof_SquareTile_Flat_D.mat
+  artifactKey: Guid(6cff680d599811845b416c0c40ea9bd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Texture_Pack/ROOF/ROOF_SquareTile_Flat/Materials/UnderRoof_SquareTile_Flat_D.mat using Guid(6cff680d599811845b416c0c40ea9bd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '825a7da23651b362be3962d7187ab739') in 0.209066 seconds
+  Import took 0.211774 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/Cartoon_Texture_Pack/ROOF/ROOF_SquareTile_Bump/Materials/UnderRoof_SquareTile_Bump_D.mat
+  artifactKey: Guid(e4c33958fe5233843aeb103ce1244bb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Texture_Pack/ROOF/ROOF_SquareTile_Bump/Materials/UnderRoof_SquareTile_Bump_D.mat using Guid(e4c33958fe5233843aeb103ce1244bb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e256b61ac2da1ca3c7e781449f21590a') in 0.211989 seconds
+  Import took 0.214307 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/Cartoon_Texture_Pack/ROOF/ROOF_SquareTile_Flat/Materials/UnderRoof_SquareTile_Flat_B.mat
+  artifactKey: Guid(82f17d060ec62e84c96155c2b40f2df3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Texture_Pack/ROOF/ROOF_SquareTile_Flat/Materials/UnderRoof_SquareTile_Flat_B.mat using Guid(82f17d060ec62e84c96155c2b40f2df3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '423533d49499acb882dc0a59ee6946e6') in 0.204646 seconds
+  Import took 0.207399 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/Cartoon_Texture_Pack/WALLS/WALL_Stone/Materials/Wall_Stone_B.mat
+  artifactKey: Guid(b747383878001c94dbaf7aa522f19c05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Texture_Pack/WALLS/WALL_Stone/Materials/Wall_Stone_B.mat using Guid(b747383878001c94dbaf7aa522f19c05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb29a972f8916bce942e04d64628dd21') in 0.211875 seconds
+  Import took 0.214303 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/Cartoon_Texture_Pack/ROOF/ROOF_RoundTile_Bump/Materials/UnderRoof_RoundTile_Bump_A.mat
+  artifactKey: Guid(6f66498e9b1c3b24eaddc0b5d10c2559) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Texture_Pack/ROOF/ROOF_RoundTile_Bump/Materials/UnderRoof_RoundTile_Bump_A.mat using Guid(6f66498e9b1c3b24eaddc0b5d10c2559) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af6a0290294db0f64c35a74dd39c63aa') in 0.218301 seconds
+  Import took 0.220648 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/Cartoon_Texture_Pack/SAND/SAND_Beach/Materials/Sand_Beach_Base.mat
+  artifactKey: Guid(98e3d348c55e6a244b34dd502d9ed4cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Texture_Pack/SAND/SAND_Beach/Materials/Sand_Beach_Base.mat using Guid(98e3d348c55e6a244b34dd502d9ed4cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42d3da647cc96baa9640e762dca22617') in 0.209287 seconds
+  Import took 0.211551 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/Cartoon_Texture_Pack/SAND/SAND_Underwater/Materials/Sand_Underwater_Base.mat
+  artifactKey: Guid(e55445e0da1f0a24ab59dba263813e61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Texture_Pack/SAND/SAND_Underwater/Materials/Sand_Underwater_Base.mat using Guid(e55445e0da1f0a24ab59dba263813e61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1797ce3bb871d9c855a6067f00447953') in 0.207563 seconds
+  Import took 0.209775 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/Cartoon_Texture_Pack/ROOF/ROOF_SquareTile_Flat/Materials/Roof_SquareTile_Flat_B.mat
+  artifactKey: Guid(9fd870e01760a154894d78adf657e82f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Texture_Pack/ROOF/ROOF_SquareTile_Flat/Materials/Roof_SquareTile_Flat_B.mat using Guid(9fd870e01760a154894d78adf657e82f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18324638bf71cb315eefc0a78d6c3bdc') in 0.209303 seconds
+  Import took 0.211965 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.188784 seconds.
+  path: Assets/Prefabs/Test_Wall.prefab
+  artifactKey: Guid(70b7cf859cfd2fc4fb79a3cd0d924fd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Test_Wall.prefab using Guid(70b7cf859cfd2fc4fb79a3cd0d924fd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09fff98f0ecfb3b76414b8bbeec196e3') in 0.195443 seconds
+  Import took 0.197865 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/Cartoon_Texture_Pack/ROOF/ROOF_SquareTile_Bump/Materials/Roof_SquareTile_Bump_B.mat
+  artifactKey: Guid(1106203a3a01f624991504eb0837a5d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Texture_Pack/ROOF/ROOF_SquareTile_Bump/Materials/Roof_SquareTile_Bump_B.mat using Guid(1106203a3a01f624991504eb0837a5d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a75df98bee844395bdec50987063439') in 0.206698 seconds
+  Import took 0.208996 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/Cartoon_Texture_Pack/SAND/SAND_Beach/Materials/Sand_Beach_Shell.mat
+  artifactKey: Guid(8f1ad6ca6c806374eb625b775345bb99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Texture_Pack/SAND/SAND_Beach/Materials/Sand_Beach_Shell.mat using Guid(8f1ad6ca6c806374eb625b775345bb99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bf10961d05511f40b8d9cb37c7f241d') in 0.220006 seconds
+  Import took 0.222556 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/Cartoon_Texture_Pack/ROOF/ROOF_SquareTile_Bump/Materials/Roof_SquareTile_Bump_D.mat
+  artifactKey: Guid(c9fb3ce4cd00ede46a5520ea7331279c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Texture_Pack/ROOF/ROOF_SquareTile_Bump/Materials/Roof_SquareTile_Bump_D.mat using Guid(c9fb3ce4cd00ede46a5520ea7331279c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64f9749cdda4a77aac4a7fc43667f96b') in 0.205174 seconds
+  Import took 0.207488 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/Cartoon_Texture_Pack/SAND/SAND_Underwater/Materials/Sand_Underwater_Shell.mat
+  artifactKey: Guid(1b27c859b87e6ab4d8473dc82a6d7d8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Texture_Pack/SAND/SAND_Underwater/Materials/Sand_Underwater_Shell.mat using Guid(1b27c859b87e6ab4d8473dc82a6d7d8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6735bb4f688e2aebd9fd2be206997cbe') in 0.208543 seconds
+  Import took 0.210763 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/Cartoon_Texture_Pack/ROOF/ROOF_Hay/Materials/UnderRoof_Hay.mat
+  artifactKey: Guid(28702d1b59555ff47b733620604f0dba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Texture_Pack/ROOF/ROOF_Hay/Materials/UnderRoof_Hay.mat using Guid(28702d1b59555ff47b733620604f0dba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0041aaee983bdcd679f6e7b33ee0aed0') in 0.213200 seconds
+  Import took 0.215462 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/Cartoon_Texture_Pack/ROOF/ROOF_SquareTile_Flat/Materials/Roof_SquareTile_Flat_A.mat
+  artifactKey: Guid(144fe47696dff324183cdb22c3087eed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Texture_Pack/ROOF/ROOF_SquareTile_Flat/Materials/Roof_SquareTile_Flat_A.mat using Guid(144fe47696dff324183cdb22c3087eed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a84ec3b1b5965ca0282f7ddb25a589ac') in 0.199744 seconds
+  Import took 0.201968 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.089979 seconds.
+  path: Assets/Prefabs/Test_Wall.prefab
+  artifactKey: Guid(70b7cf859cfd2fc4fb79a3cd0d924fd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Test_Wall.prefab using Guid(70b7cf859cfd2fc4fb79a3cd0d924fd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b438cf303ba074d8c6c525fb55610460') in 0.204878 seconds
+  Import took 0.207251 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/Cartoon_Texture_Pack/ROOF/ROOF_SquareTile_Flat/Materials/Roof_SquareTile_Flat_C.mat
+  artifactKey: Guid(5b53326592145ba4aaa2a078140b26f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Texture_Pack/ROOF/ROOF_SquareTile_Flat/Materials/Roof_SquareTile_Flat_C.mat using Guid(5b53326592145ba4aaa2a078140b26f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c90988e1c23529dd8cc1ac3f9ffaafd7') in 0.212123 seconds
+  Import took 0.214368 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/Cartoon_Texture_Pack/ROOF/ROOF_SquareTile_Bump/Materials/Roof_SquareTile_Bump_C.mat
+  artifactKey: Guid(73f0abe4fe4334849b150495bc62250b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Texture_Pack/ROOF/ROOF_SquareTile_Bump/Materials/Roof_SquareTile_Bump_C.mat using Guid(73f0abe4fe4334849b150495bc62250b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89b322f26cb04c09da6fc2a707a347ee') in 0.209918 seconds
+  Import took 0.212228 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/Cartoon_Texture_Pack/ROOF/ROOF_SquareTile_Flat/Materials/Roof_SquareTile_Flat_D.mat
+  artifactKey: Guid(10f813aa82510b24f8d0c7d49ed98d2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Texture_Pack/ROOF/ROOF_SquareTile_Flat/Materials/Roof_SquareTile_Flat_D.mat using Guid(10f813aa82510b24f8d0c7d49ed98d2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eaf01af22a25fd620ec52b9934beeace') in 0.207442 seconds
+  Import took 0.209770 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000355 seconds.
+  path: Assets/Cartoon_Texture_Pack/ROOF/ROOF_SquareTile_Bump/Materials/Roof_SquareTile_Bump_A.mat
+  artifactKey: Guid(d335506cf4e3c274b9ff7d05b922cfb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Texture_Pack/ROOF/ROOF_SquareTile_Bump/Materials/Roof_SquareTile_Bump_A.mat using Guid(d335506cf4e3c274b9ff7d05b922cfb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b312316332e209c53043d2fdc3548d74') in 0.207804 seconds
+  Import took 0.210611 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/Cartoon_Texture_Pack/ROOF/ROOF_RoundTile_Flat/Materials/Roof_RoundTile_Flat_C.mat
+  artifactKey: Guid(90bc802ac027a974196df98d652eac14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Texture_Pack/ROOF/ROOF_RoundTile_Flat/Materials/Roof_RoundTile_Flat_C.mat using Guid(90bc802ac027a974196df98d652eac14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc1461a9c1d70ff85b1e4d62621405f7') in 0.200573 seconds
+  Import took 0.202872 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/Cartoon_Texture_Pack/ROOF/ROOF_RoundTile_Bump/Materials/Roof_RoundTile_Bump_D.mat
+  artifactKey: Guid(42e90f338d58beb4eaa509aa9527f5dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Texture_Pack/ROOF/ROOF_RoundTile_Bump/Materials/Roof_RoundTile_Bump_D.mat using Guid(42e90f338d58beb4eaa509aa9527f5dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '619828fa38c0661542a0fa863de94f4a') in 0.207217 seconds
+  Import took 0.209801 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.139881 seconds.
+  path: Assets/Prefabs/Test_Wall.prefab
+  artifactKey: Guid(70b7cf859cfd2fc4fb79a3cd0d924fd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Test_Wall.prefab using Guid(70b7cf859cfd2fc4fb79a3cd0d924fd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97011d933359a512fb7d2265b2387198') in 0.204923 seconds
+  Import took 0.207686 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/Cartoon_Texture_Pack/ROOF/ROOF_RoundTile_Flat/Materials/Roof_RoundTile_Flat_D.mat
+  artifactKey: Guid(c7723bb6c0bd03249bc1997e6becf999) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Texture_Pack/ROOF/ROOF_RoundTile_Flat/Materials/Roof_RoundTile_Flat_D.mat using Guid(c7723bb6c0bd03249bc1997e6becf999) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4adb60c77d8c1593670e858721bdb66') in 0.208880 seconds
+  Import took 0.211091 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/Cartoon_Texture_Pack/ROOF/ROOF_RoundTile_Flat/Materials/Roof_RoundTile_Flat_B.mat
+  artifactKey: Guid(36d79cec6bc8d2c44856ddb2f809eb98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Texture_Pack/ROOF/ROOF_RoundTile_Flat/Materials/Roof_RoundTile_Flat_B.mat using Guid(36d79cec6bc8d2c44856ddb2f809eb98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8700614211c83ed677c79a3d987d1ae5') in 0.210537 seconds
+  Import took 0.212746 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/Prefabs/Test_Wall.prefab
+  artifactKey: Guid(70b7cf859cfd2fc4fb79a3cd0d924fd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Test_Wall.prefab using Guid(70b7cf859cfd2fc4fb79a3cd0d924fd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ab83898fcffc9569439c2d7fe39967c') in 0.209162 seconds
+  Import took 0.211608 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/Cartoon_Texture_Pack/ROOF/ROOF_RoundTile_Flat/Materials/Roof_RoundTile_Flat_B.mat
+  artifactKey: Guid(36d79cec6bc8d2c44856ddb2f809eb98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Texture_Pack/ROOF/ROOF_RoundTile_Flat/Materials/Roof_RoundTile_Flat_B.mat using Guid(36d79cec6bc8d2c44856ddb2f809eb98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8700614211c83ed677c79a3d987d1ae5') in 0.197984 seconds
+  Import took 0.200241 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/Cartoon_Texture_Pack/ROOF/ROOF_RoundTile_Flat/Materials/Roof_RoundTile_Flat_A.mat
+  artifactKey: Guid(b43f3882888509942afbbf97bc376413) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Texture_Pack/ROOF/ROOF_RoundTile_Flat/Materials/Roof_RoundTile_Flat_A.mat using Guid(b43f3882888509942afbbf97bc376413) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c148a96f78c77a9a327d1f0f3da6db20') in 0.211512 seconds
+  Import took 0.221354 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001461 seconds.
+  path: Assets/Cartoon_Texture_Pack/ROOF/ROOF_RoundTile_Flat/Materials/Roof_RoundTile_Flat_A.mat
+  artifactKey: Guid(b43f3882888509942afbbf97bc376413) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Texture_Pack/ROOF/ROOF_RoundTile_Flat/Materials/Roof_RoundTile_Flat_A.mat using Guid(b43f3882888509942afbbf97bc376413) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c148a96f78c77a9a327d1f0f3da6db20') in 0.220948 seconds
+  Import took 0.223318 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.794601 seconds.
+  path: Assets/Cartoon_Texture_Pack/GRASS/GRASS_Flower/GRASS_Flower_Tint_02/Material/Grass_Flower_Tint_02_Rocks.mat
+  artifactKey: Guid(438bebb537619934383f5748b89a6b81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Texture_Pack/GRASS/GRASS_Flower/GRASS_Flower_Tint_02/Material/Grass_Flower_Tint_02_Rocks.mat using Guid(438bebb537619934383f5748b89a6b81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bee61285c6dc17742d172263069cdad1') in 0.217954 seconds
+  Import took 0.220642 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/Cartoon_Texture_Pack/ROCKS/ROCKS_Cliff/Materials/Rocks_Cliff_A_BC_A.mat
+  artifactKey: Guid(c3c8b2e7507849f43a31e15b9d7c3dc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Texture_Pack/ROCKS/ROCKS_Cliff/Materials/Rocks_Cliff_A_BC_A.mat using Guid(c3c8b2e7507849f43a31e15b9d7c3dc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10c0deb3c93bc65ed8428c569f1360a2') in 0.219378 seconds
+  Import took 0.221674 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/Cartoon_Texture_Pack/ROCKS/ROCKS_Cliff/Materials/Rocks_Cliff_A_BC_B.mat
+  artifactKey: Guid(533b4146d42e51242a9a93ccd869a855) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Texture_Pack/ROCKS/ROCKS_Cliff/Materials/Rocks_Cliff_A_BC_B.mat using Guid(533b4146d42e51242a9a93ccd869a855) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a23a7dc4534615fc367f6a34d559e83') in 0.218172 seconds
+  Import took 0.221139 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/Cartoon_Texture_Pack/ROCKS/ROCKS_Cliff/Materials/Rocks_Cliff_B_BC_A.mat
+  artifactKey: Guid(769d192c127c1e64da6f0234ec9b9969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Texture_Pack/ROCKS/ROCKS_Cliff/Materials/Rocks_Cliff_B_BC_A.mat using Guid(769d192c127c1e64da6f0234ec9b9969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e18bd77edab45360d09c47b85d7cdb4b') in 0.204502 seconds
+  Import took 0.206798 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/Cartoon_Texture_Pack/ROOF/ROOF_Hay/Materials/Roof_Hay.mat
+  artifactKey: Guid(53fea407df5fd294393652dc76882d5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Texture_Pack/ROOF/ROOF_Hay/Materials/Roof_Hay.mat using Guid(53fea407df5fd294393652dc76882d5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eee18ce38e487752b6e2fc08abe3fc67') in 0.209947 seconds
+  Import took 0.212294 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/Cartoon_Texture_Pack/ROCKS/ROCKS_Cliff/Materials/Rocks_Cliff_B_BC_B.mat
+  artifactKey: Guid(38eaf5109156569489bf8f2929fd35a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Texture_Pack/ROCKS/ROCKS_Cliff/Materials/Rocks_Cliff_B_BC_B.mat using Guid(38eaf5109156569489bf8f2929fd35a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05c21995c06016f06501d381de68fb39') in 0.211426 seconds
+  Import took 0.213779 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/Cartoon_Texture_Pack/ROCKS/ROCKS_Volcanic/Materials/Rocks_Volcanic_B.mat
+  artifactKey: Guid(3f532fd3bc3865a47b05fffc3fe2b8f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Texture_Pack/ROCKS/ROCKS_Volcanic/Materials/Rocks_Volcanic_B.mat using Guid(3f532fd3bc3865a47b05fffc3fe2b8f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4ea0c18733506ad52ae381f3363b886') in 0.211841 seconds
+  Import took 0.214179 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/Materials/material_test.mat
+  artifactKey: Guid(6949616ffca9a2f4997181be106b1202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/material_test.mat using Guid(6949616ffca9a2f4997181be106b1202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a063a5301b5cc3f26cf57a20993c9390') in 0.016342 seconds
+  Import took 0.018381 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/Cartoon_Texture_Pack/ROCKS/ROCKS_Volcanic/Materials/Rocks_Volcanic_C.mat
+  artifactKey: Guid(de88005d1f5e1554494e69b81da77235) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Texture_Pack/ROCKS/ROCKS_Volcanic/Materials/Rocks_Volcanic_C.mat using Guid(de88005d1f5e1554494e69b81da77235) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ebf3eae586726d24960017ab0edb5c0') in 0.226747 seconds
+  Import took 0.229236 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/Cartoon_Texture_Pack/GRASS/GRASS_Flower/GRASS_Flower_Tint_02/Material/Grass_Flower_Tint_02_Rocks.mat
+  artifactKey: Guid(438bebb537619934383f5748b89a6b81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Texture_Pack/GRASS/GRASS_Flower/GRASS_Flower_Tint_02/Material/Grass_Flower_Tint_02_Rocks.mat using Guid(438bebb537619934383f5748b89a6b81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bee61285c6dc17742d172263069cdad1') in 0.220171 seconds
+  Import took 0.223284 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/Cartoon_Texture_Pack/ROCKS/ROCKS_Volcanic/Materials/Rocks_Volcanic_A.mat
+  artifactKey: Guid(d9a95648e82caa7459f1106df0da4af2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Texture_Pack/ROCKS/ROCKS_Volcanic/Materials/Rocks_Volcanic_A.mat using Guid(d9a95648e82caa7459f1106df0da4af2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24484e609cce46ea5948756e0186f0c7') in 0.205194 seconds
+  Import took 0.207898 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.905811 seconds.
+  path: Assets/Cartoon_Texture_Pack/GRASS/GRASS_Flower/GRASS_Flower_Tint_02/Material/Grass_Flower_Tint_02_FlowerYellow_A.mat
+  artifactKey: Guid(576bffa7053b49243a5c05b682894d7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Texture_Pack/GRASS/GRASS_Flower/GRASS_Flower_Tint_02/Material/Grass_Flower_Tint_02_FlowerYellow_A.mat using Guid(576bffa7053b49243a5c05b682894d7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23afa55b91faa06467d2e072d3fd1366') in 0.216901 seconds
+  Import took 0.219489 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/Cartoon_Texture_Pack/GRASS/GRASS_Flower/GRASS_Flower_Tint_02/Material/Grass_Flower_Tint_02_FlowerYellow_B.mat
+  artifactKey: Guid(c147ff3bd0c44734ab1d726ec8c6a28d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Texture_Pack/GRASS/GRASS_Flower/GRASS_Flower_Tint_02/Material/Grass_Flower_Tint_02_FlowerYellow_B.mat using Guid(c147ff3bd0c44734ab1d726ec8c6a28d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8684b23554b9f697650ef6612ed37105') in 0.211265 seconds
+  Import took 0.213482 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/Cartoon_Texture_Pack/GRASS/GRASS_Flower/GRASS_Flower_Tint_02/Material/Grass_Flower_Tint_02_FlowerYellow_A.mat
+  artifactKey: Guid(576bffa7053b49243a5c05b682894d7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Texture_Pack/GRASS/GRASS_Flower/GRASS_Flower_Tint_02/Material/Grass_Flower_Tint_02_FlowerYellow_A.mat using Guid(576bffa7053b49243a5c05b682894d7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23afa55b91faa06467d2e072d3fd1366') in 0.206614 seconds
+  Import took 0.208936 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/Cartoon_Texture_Pack/GRASS/GRASS_Flower/GRASS_Flower_Tint_02/Material/Grass_Flower_Tint_02_FlowerRed_A.mat
+  artifactKey: Guid(62b42cccc50638d4589ab23e170bbfb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Texture_Pack/GRASS/GRASS_Flower/GRASS_Flower_Tint_02/Material/Grass_Flower_Tint_02_FlowerRed_A.mat using Guid(62b42cccc50638d4589ab23e170bbfb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d0bbcddb31549c16483f30c741db971') in 0.210012 seconds
+  Import took 0.212209 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/Cartoon_Texture_Pack/GRASS/GRASS_Flower/GRASS_Flower_Tint_02/Material/Grass_Flower_Tint_02_FlowerRed_B.mat
+  artifactKey: Guid(d1264135f8ef85d4c8e48104847adcb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Texture_Pack/GRASS/GRASS_Flower/GRASS_Flower_Tint_02/Material/Grass_Flower_Tint_02_FlowerRed_B.mat using Guid(d1264135f8ef85d4c8e48104847adcb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '605fc6efc1c37dfa9a0d9388edd5be95') in 0.211585 seconds
+  Import took 0.213811 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.217709 seconds.
+  path: Assets/Cartoon_Texture_Pack/GRASS/GRASS_Flower/GRASS_Flower_Tint_02/Material/Grass_Flower_Tint_02_FlowerRed_B.mat
+  artifactKey: Guid(d1264135f8ef85d4c8e48104847adcb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Texture_Pack/GRASS/GRASS_Flower/GRASS_Flower_Tint_02/Material/Grass_Flower_Tint_02_FlowerRed_B.mat using Guid(d1264135f8ef85d4c8e48104847adcb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '605fc6efc1c37dfa9a0d9388edd5be95') in 0.200563 seconds
+  Import took 0.203040 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.555735 seconds.
+  path: Assets/Cartoon_Texture_Pack/WOOD/WOOD_Plain/Materials/Wood_Plain_A.mat
+  artifactKey: Guid(d1308064540b76a488431b360cee6b89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Texture_Pack/WOOD/WOOD_Plain/Materials/Wood_Plain_A.mat using Guid(d1308064540b76a488431b360cee6b89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70a817e76dbad602fabdeb29945a729d') in 0.213804 seconds
+  Import took 0.216164 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/Cartoon_Texture_Pack/WALLS/WALL_Bricks/Materials/Wall_Brick_D.mat
+  artifactKey: Guid(99c80548b1df7044281ddaed1d658ead) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Texture_Pack/WALLS/WALL_Bricks/Materials/Wall_Brick_D.mat using Guid(99c80548b1df7044281ddaed1d658ead) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ed6621767b03ffe4532bd2636ea6738') in 0.211751 seconds
+  Import took 0.214011 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000295 seconds.
+  path: Assets/Materials/Wall_material.mat
+  artifactKey: Guid(d41f1ba540cf48b4eaa399fedd9b449e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Wall_material.mat using Guid(d41f1ba540cf48b4eaa399fedd9b449e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb2c04798676a4b566b77b62825c7099') in 0.018026 seconds
+  Import took 0.020270 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/Cartoon_Texture_Pack/WALLS/WALL_Stone/Materials/Wall_Stone_C.mat
+  artifactKey: Guid(7566f004765b64046b3b33e2c3513c6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Texture_Pack/WALLS/WALL_Stone/Materials/Wall_Stone_C.mat using Guid(7566f004765b64046b3b33e2c3513c6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38e0d191581b97d8969eee549aa62d00') in 0.230334 seconds
+  Import took 0.232608 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/Cartoon_Texture_Pack/WALLS/WALL_Bricks/Materials/Wall_Brick_C.mat
+  artifactKey: Guid(3a5e74c1ed8337d4cbfafd0490ba8951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Texture_Pack/WALLS/WALL_Bricks/Materials/Wall_Brick_C.mat using Guid(3a5e74c1ed8337d4cbfafd0490ba8951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '327a4c9da4b7cfc41d67cbd9573b0973') in 0.213028 seconds
+  Import took 0.215524 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/Cartoon_Texture_Pack/WALLS/WALL_Stone/Materials/Wall_Stone_A.mat
+  artifactKey: Guid(5ffe771db4b6b1a4babbbb27cd18facc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Texture_Pack/WALLS/WALL_Stone/Materials/Wall_Stone_A.mat using Guid(5ffe771db4b6b1a4babbbb27cd18facc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a0a275a02805c84b380c5431afdd837') in 0.213982 seconds
+  Import took 0.216469 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.313710 seconds.
+  path: Assets/Cartoon_Texture_Pack/WALLS/WALL_Bricks/Materials/Wall_Brick_A.mat
+  artifactKey: Guid(57affabf9cc8f1443a25f2ff280d83a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Texture_Pack/WALLS/WALL_Bricks/Materials/Wall_Brick_A.mat using Guid(57affabf9cc8f1443a25f2ff280d83a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ddf14adde6f7cb0bf74bf01416e5aaf') in 0.201326 seconds
+  Import took 0.203594 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/Cartoon_Texture_Pack/WALLS/WALL_Bricks/Materials/Wall_Brick_B.mat
+  artifactKey: Guid(e429c8ff9e485574b8aa09ee44b4da19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Texture_Pack/WALLS/WALL_Bricks/Materials/Wall_Brick_B.mat using Guid(e429c8ff9e485574b8aa09ee44b4da19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08f597d95adc8d34ad49ef2f92ee9473') in 0.212906 seconds
+  Import took 0.215357 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/Cartoon_Texture_Pack/ROOF/ROOF_SquareTile_Flat/Materials/UnderRoof_SquareTile_Flat_C.mat
+  artifactKey: Guid(6015400315f291e48aa54dfe395b0591) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Texture_Pack/ROOF/ROOF_SquareTile_Flat/Materials/UnderRoof_SquareTile_Flat_C.mat using Guid(6015400315f291e48aa54dfe395b0591) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8164c963a95d316ebb12a15d5febaecf') in 0.214198 seconds
+  Import took 0.216669 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.392227 seconds.
+  path: Assets/Cartoon_Texture_Pack/ROOF/ROOF_SquareTile_Flat/Materials/UnderRoof_SquareTile_Flat_A.mat
+  artifactKey: Guid(ca667fff105c2f04caec0014dea9eacb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Texture_Pack/ROOF/ROOF_SquareTile_Flat/Materials/UnderRoof_SquareTile_Flat_A.mat using Guid(ca667fff105c2f04caec0014dea9eacb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19cff9b62c09f140f24259e1358838a6') in 0.210323 seconds
+  Import took 0.213497 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 96.962041 seconds.
+  path: Assets/Scripts/Enemy.cs
+  artifactKey: Guid(24e0df9b3c1740c47b39aa6c038dc3a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Enemy.cs using Guid(24e0df9b3c1740c47b39aa6c038dc3a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd2f51edc599b6d69510c659f4d368e3') in 0.014396 seconds
+  Import took 0.017042 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000580 seconds.
+  path: Assets/Scripts/Enemy.cs
+  artifactKey: Guid(24e0df9b3c1740c47b39aa6c038dc3a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Enemy.cs using Guid(24e0df9b3c1740c47b39aa6c038dc3a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd2f51edc599b6d69510c659f4d368e3') in 0.002791 seconds
+  Import took 0.004864 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000700 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.650 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1118 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 60.9 MB.
+System memory in use after: 60.9 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1605.
+Total: 2.167700 ms (FindLiveObjects: 0.258200 ms CreateObjectMapping: 0.067000 ms MarkObjects: 1.785300 ms  DeleteObjects: 0.054700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000673 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.35 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.711 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1118 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 61.0 MB.
+System memory in use after: 61.1 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1607.
+Total: 1.620300 ms (FindLiveObjects: 0.166800 ms CreateObjectMapping: 0.025200 ms MarkObjects: 1.371900 ms  DeleteObjects: 0.054600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000688 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.668 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1118 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 61.1 MB.
+System memory in use after: 61.2 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1609.
+Total: 1.851900 ms (FindLiveObjects: 0.175300 ms CreateObjectMapping: 0.025300 ms MarkObjects: 1.596600 ms  DeleteObjects: 0.052400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 392.497368 seconds.
+  path: Assets/Scripts/Enemy.cs
+  artifactKey: Guid(24e0df9b3c1740c47b39aa6c038dc3a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Enemy.cs using Guid(24e0df9b3c1740c47b39aa6c038dc3a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e34d60315b84039f7e6edf2703ca879f') in 0.005185 seconds
+  Import took 0.007358 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000669 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.671 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1118 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 61.2 MB.
+System memory in use after: 61.3 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1611.
+Total: 1.728700 ms (FindLiveObjects: 0.184100 ms CreateObjectMapping: 0.024900 ms MarkObjects: 1.453200 ms  DeleteObjects: 0.064000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 63.443214 seconds.
+  path: Assets/Scripts/Enemy.cs
+  artifactKey: Guid(24e0df9b3c1740c47b39aa6c038dc3a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Enemy.cs using Guid(24e0df9b3c1740c47b39aa6c038dc3a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a43b0f9769ff3ff2ba0c6d9bb3f63979') in 0.005152 seconds
+  Import took 0.006982 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000722 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.671 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1118 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 61.3 MB.
+System memory in use after: 61.4 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1613.
+Total: 1.819000 ms (FindLiveObjects: 0.189300 ms CreateObjectMapping: 0.047300 ms MarkObjects: 1.527800 ms  DeleteObjects: 0.053000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000673 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.668 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1118 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 61.4 MB.
+System memory in use after: 61.5 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1615.
+Total: 1.591200 ms (FindLiveObjects: 0.168100 ms CreateObjectMapping: 0.048200 ms MarkObjects: 1.320900 ms  DeleteObjects: 0.052700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000604 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.674 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1118 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 61.5 MB.
+System memory in use after: 61.6 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1617.
+Total: 1.541300 ms (FindLiveObjects: 0.141200 ms CreateObjectMapping: 0.024800 ms MarkObjects: 1.325000 ms  DeleteObjects: 0.049100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

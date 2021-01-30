@@ -174,7 +174,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 6949616ffca9a2f4997181be106b1202, type: 2}
+  - {fileID: 2100000, guid: c569c280f0eb52a49a7b2a6b8b0cbcf8, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -231,6 +231,7 @@ GameObject:
   - component: {fileID: 395441109}
   - component: {fileID: 395441108}
   - component: {fileID: 395441107}
+  - component: {fileID: 395441112}
   m_Layer: 0
   m_Name: Test_Enemy
   m_TagString: Enemy
@@ -264,7 +265,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 395441106}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -288,7 +289,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: eb66f2d764a5d7040912ce8a6bf44803, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -326,12 +327,30 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 395441106}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.28, y: 0.787, z: 2.13}
+  m_LocalPosition: {x: 0.131, y: 1.5, z: 2.13}
   m_LocalScale: {x: 0.5, y: 1.54, z: 0.5}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!143 &395441112
+CharacterController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 395441106}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Height: 0.99999994
+  m_Radius: 0.5
+  m_SlopeLimit: 45
+  m_StepOffset: 0.3
+  m_SkinWidth: 0.0001
+  m_MinMoveDistance: 0.001
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &522788349
 GameObject:
   m_ObjectHideFlags: 0
@@ -496,6 +515,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4810450557762836035, guid: 70b7cf859cfd2fc4fb79a3cd0d924fd1, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 6949616ffca9a2f4997181be106b1202, type: 2}
     - target: {fileID: 4810450557762836093, guid: 70b7cf859cfd2fc4fb79a3cd0d924fd1, type: 3}
       propertyPath: m_Name
       value: Test_Wall (1)
@@ -893,6 +916,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4810450557762836035, guid: 70b7cf859cfd2fc4fb79a3cd0d924fd1, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 6949616ffca9a2f4997181be106b1202, type: 2}
     - target: {fileID: 4810450557762836093, guid: 70b7cf859cfd2fc4fb79a3cd0d924fd1, type: 3}
       propertyPath: m_Name
       value: Test_Wall (3)
@@ -1011,7 +1038,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   HP: 20
-  Speed: 1000
+  Speed: 5
   Regen: 0
   Weapon: {fileID: 0}
   CharacterType: {fileID: 0}
@@ -1085,6 +1112,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4810450557762836035, guid: 70b7cf859cfd2fc4fb79a3cd0d924fd1, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 6949616ffca9a2f4997181be106b1202, type: 2}
     - target: {fileID: 4810450557762836093, guid: 70b7cf859cfd2fc4fb79a3cd0d924fd1, type: 3}
       propertyPath: m_Name
       value: Test_Wall (2)
@@ -1196,6 +1227,7 @@ GameObject:
   - component: {fileID: 1763054260}
   - component: {fileID: 1763054259}
   - component: {fileID: 1763054258}
+  - component: {fileID: 1763054263}
   m_Layer: 0
   m_Name: Test_Enemy (2)
   m_TagString: Enemy
@@ -1229,7 +1261,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1763054257}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -1253,7 +1285,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: eb66f2d764a5d7040912ce8a6bf44803, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1291,12 +1323,30 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1763054257}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.01, y: 0.787, z: 2.13}
+  m_LocalPosition: {x: 0.851, y: 1.5, z: 2.13}
   m_LocalScale: {x: 0.5, y: 1.54, z: 0.5}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!143 &1763054263
+CharacterController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1763054257}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Height: 0.99999994
+  m_Radius: 0.5
+  m_SlopeLimit: 45
+  m_StepOffset: 0.3
+  m_SkinWidth: 0.0001
+  m_MinMoveDistance: 0.001
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &1804025674
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1519,6 +1569,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4810450557762836035, guid: 70b7cf859cfd2fc4fb79a3cd0d924fd1, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: d41f1ba540cf48b4eaa399fedd9b449e, type: 2}
     - target: {fileID: 4810450557762836093, guid: 70b7cf859cfd2fc4fb79a3cd0d924fd1, type: 3}
       propertyPath: m_Name
       value: Test_Wall (4)
@@ -1673,6 +1727,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4810450557762836035, guid: 70b7cf859cfd2fc4fb79a3cd0d924fd1, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 6949616ffca9a2f4997181be106b1202, type: 2}
     - target: {fileID: 4810450557762836093, guid: 70b7cf859cfd2fc4fb79a3cd0d924fd1, type: 3}
       propertyPath: m_Name
       value: Test_Wall
