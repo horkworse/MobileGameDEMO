@@ -11,10 +11,14 @@ public class Player : Character
     private Vector3 moveInput;
 
     public static float hpChange;
+    //public static float normalSpeed;
+    public static float objectSpeed;
     void Start()
     {
         ch = GetComponent<CharacterController>();
         hpChange = HP;
+        //normalSpeed = Speed;
+        objectSpeed = Speed;
     }
 
     void Update()
@@ -29,9 +33,9 @@ public class Player : Character
 
 
         moveInput = Vector3.zero;
-        moveInput.z = joystick.Vertical * Speed;
+        moveInput.z = joystick.Vertical * objectSpeed;
 
-        moveInput.x = joystick.Horizontal * Speed;
+        moveInput.x = joystick.Horizontal * objectSpeed;
         moveInput.y = -5f;
         ch.Move(moveInput * Time.deltaTime);
 
