@@ -11,14 +11,10 @@ public class Player : Character
     private Vector3 moveInput;
 
     public static float hpChange;
-    //public static float normalSpeed;
-    public static float objectSpeed;
     void Start()
     {
         ch = GetComponent<CharacterController>();
         hpChange = HP;
-        //normalSpeed = Speed;
-        objectSpeed = Speed;
     }
 
     void Update()
@@ -33,17 +29,34 @@ public class Player : Character
 
 
         moveInput = Vector3.zero;
-        moveInput.z = joystick.Vertical * objectSpeed;
+        moveInput.z = joystick.Vertical * Speed;
 
-        moveInput.x = joystick.Horizontal * objectSpeed;
+        moveInput.x = joystick.Horizontal * Speed;
         moveInput.y = -5f;
         ch.Move(moveInput * Time.deltaTime);
 
     }
+    
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.tag is "Enemy") {
-            Debug.Log("ENTERED");
+        if (other.gameObject.tag is "Slow_Area")
+        {
+            Speed *= 0.5f;
+        }
+        if (other.gameObject.tag is "Damage_Zone")
+        {
+            hpChange -= 1;
+        }
+    }
+    private void OnCollisionEnter(Collision collision)
+    {
+        Debug.Log("123");
+    }
+    private void OnTriggerExit(Collider other)
+    {
+        if (other.gameObject.tag is "Slow_Area")
+        {
+            Speed *= 2f;
         }
     }
 }

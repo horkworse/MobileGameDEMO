@@ -8,6 +8,8 @@ TagManager:
   - Wall
   - Bullet
   - Head
+  - Damage_Zone
+  - Slow_Area
   layers:
   - Default
   - TransparentFX
