@@ -15,13 +15,16 @@ public class Creep : Character
     public LayerMask whatIsPlayer;
     public LayerMask whatIsGround;
 
-    public bool walkPointSet;
+    bool walkPointSet;
     public float walkPointRange;
 
-    Vector3 walkPoint;
+    public Vector3 walkPoint;
+
+    public float time;
 
     void Start () {
         agent = GetComponent<NavMeshAgent>();
+        agent.speed = Speed;
     }
 
     void Update(){
@@ -41,29 +44,26 @@ public class Creep : Character
 
     void Patrolling()
     {
-        // не удалять, доделает hork
+        if (time > 2f)
+        {
+            walkPoint = FindPoint();
+            time = 0;
+        }
+        else time += Time.deltaTime;
 
-        if (!walkPointSet) SearchWalkPoint();
-
-        if (!walkPointSet) agent.SetDestination(walkPoint);
-
-        var distanceToWalkPoint = transform.position - walkPoint;
-
-        if (distanceToWalkPoint.magnitude < 1f)
-            walkPointSet = false;
+        agent.SetDestination(walkPoint);
     }
 
-    void SearchWalkPoint()
+    Vector3 FindPoint()
     {
-        // не удалять, доделает hork
         float randomZ = Random.Range(-walkPointRange, walkPointRange);
         float randomX = Random.Range(-walkPointRange, walkPointRange);
 
-        walkPoint = new Vector3(transform.position.x + randomX, transform.position.y, transform.position.z + randomZ);
+        // сделать проверку на стену (?)
 
-        if (Physics.Raycast(walkPoint, -transform.up, 2f, whatIsGround))
-            walkPointSet = true;
+        return new Vector3(transform.position.x + randomX, transform.position.y, transform.position.z + randomZ);
     }
+
     void MoveToPlayer()
     {
         agent.destination = goal.position;
@@ -79,12 +79,21 @@ public class Creep : Character
             Debug.Log("Creep slow");
             agent.speed *= 0.5f;
         }
+        if (other.gameObject.tag is "ActionArea")
+        {
+            agent.speed = 0f;
+        }
+
     }
     private void OnTriggerExit(Collider other)
     {
         if (other.gameObject.tag is "Slow_Area")
         {
             agent.speed *= 2f;
+        }
+        if (other.gameObject.tag is "ActionArea")
+        {
+            agent.speed = Speed;
         }
     }
 }

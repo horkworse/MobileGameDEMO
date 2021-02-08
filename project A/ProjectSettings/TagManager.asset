@@ -10,6 +10,8 @@ TagManager:
   - Head
   - Damage_Zone
   - Slow_Area
+  - ActionArea
+  - Floor
   layers:
   - Default
   - TransparentFX
