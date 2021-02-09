@@ -10,7 +10,6 @@ public class Creep_Head : MonoBehaviour
     void Start()
     {
         Instantiate(Creep_Weapon, GunPoint.position, GunPoint.rotation, GunPoint.transform);
-
     }
 
     // Update is called once per frame

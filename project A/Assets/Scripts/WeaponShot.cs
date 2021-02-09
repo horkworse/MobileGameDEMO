@@ -3,9 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class WeaponShot : Weapon
-
 {
-
     public Transform Shot_point;
     private float time;
     void Start()
@@ -21,15 +19,9 @@ public class WeaponShot : Weapon
             {
                 Instantiate(AmmoType, Shot_point.position, Shot_point.rotation);
                 time = RateOfFire;
-
-
             }
         }
         else
             time -= Time.deltaTime;
-
-
-
-
     }
 }
