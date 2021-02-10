@@ -12,7 +12,8 @@ public class RangedCreep : Character
     public float sightRange;
     public bool playerInSightRange;
     public float rangeToPlayer;
-    public float agroRange;
+    public float gunRange;
+    public static bool gunRangeFire = false;
 
     public LayerMask whatIsPlayer;
     public LayerMask whatIsGround;
@@ -32,7 +33,6 @@ public class RangedCreep : Character
     }
 
     void Update(){
-
         playerInSightRange = Physics.CheckSphere(transform.position, sightRange, whatIsPlayer);
         rangeToPlayer = Vector3.Distance(goal.position, transform.position);
 
@@ -48,6 +48,7 @@ public class RangedCreep : Character
 
     void Patrolling()
     {
+        gunRangeFire = false;
         if (time > 2f)
         {
             walkPoint = FindPoint();
@@ -70,18 +71,21 @@ public class RangedCreep : Character
 
     void MoveToPlayer()
     {
-        if (rangeToPlayer > agroRange){
+        //Если дальность стрельбы меньше радиуса видимости
+        /*if (rangeToPlayer > gunRange){
             agent.destination = transform.position + Vector3.MoveTowards(agent.destination, goal.position, 3f);
-        }
-        else{
+            gunRangeFire = false;
+        }*/
+        // Если она равна или больше
+        if(playerInSightRange){
+            Debug.Log("I see you!");
             agent.destination = goal.position - Vector3.MoveTowards(agent.destination, goal.position, 3f);
+            //!Добавить движение в стороны(рандомное)
+            transform.LookAt(goal.position, Vector3.up);
+            gunRangeFire = true;
         }
     }
 
-    void Shoot()
-    {
-        
-    }
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.tag is "Bullet")

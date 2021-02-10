@@ -97,7 +97,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Damage: 10
-  Speed: 5
+  Speed: 20
   Range: 2
   Ammo: {fileID: 0}
 --- !u!136 &524051055272744633
