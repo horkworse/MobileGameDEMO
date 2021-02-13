@@ -83,6 +83,7 @@ public class Creep : Character
         if (other.gameObject.tag is "ActionArea")
         {
             agent.speed = 0f;
+            agent.acceleration = 100f;
         }
     }
     private void OnTriggerExit(Collider other)
@@ -94,6 +95,7 @@ public class Creep : Character
         if (other.gameObject.tag is "ActionArea")
         {
             agent.speed = Speed;
+            agent.acceleration = 5f;
         }
     }
 }

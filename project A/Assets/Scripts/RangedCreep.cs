@@ -82,7 +82,7 @@ public class RangedCreep : Character
         }*/
         // Если она равна или больше
         if(playerInSightRange){
-            Debug.Log("I see you!");
+            //Debug.Log("I see you!");
             agent.destination = goal.position - Vector3.MoveTowards(agent.destination, goal.position, 3f);
             //!Добавить движение в стороны(рандомное)
             transform.LookAt(goal.position, Vector3.up);
