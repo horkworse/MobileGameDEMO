@@ -22,19 +22,22 @@ public class Creep : Character
 
     public float time;
 
-    void Start () {
+    void Start ()
+    {
         agent = GetComponent<NavMeshAgent>();
         agent.speed = Speed;
     }
 
-    void Update(){
-
+    void Update()
+    {
         playerInSightRange = Physics.CheckSphere(transform.position, sightRange, whatIsPlayer);
-
-
         if (playerInSightRange && HP > 0) MoveToPlayer();
         else if (!playerInSightRange) Patrolling();
-        if (HP <= 0) Destroy(gameObject);
+        if (HP <= 0)
+        {
+            Destroy(gameObject);
+            Player.amount -= 1;
+        }
         if (speed_change == true)
         {
             agent.speed = 0;
@@ -58,9 +61,7 @@ public class Creep : Character
     {
         float randomZ = Random.Range(-walkPointRange, walkPointRange);
         float randomX = Random.Range(-walkPointRange, walkPointRange);
-
         // сделать проверку на стену (?)
-
         return new Vector3(transform.position.x + randomX, transform.position.y, transform.position.z + randomZ);
     }
 
@@ -83,7 +84,6 @@ public class Creep : Character
         {
             agent.speed = 0f;
         }
-
     }
     private void OnTriggerExit(Collider other)
     {

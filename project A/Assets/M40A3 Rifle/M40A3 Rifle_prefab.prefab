@@ -118,6 +118,7 @@ MonoBehaviour:
   RateOfFire: 0.25
   AmmoType: {fileID: 4450006538343743592, guid: 685c9a15e6e6909488f532fc16b39766, type: 3}
   WeaponType: {fileID: 0}
+  startAmmo: 50
   Shot_point: {fileID: 622626238816690424}
 --- !u!1 &3117593845631335754
 GameObject:

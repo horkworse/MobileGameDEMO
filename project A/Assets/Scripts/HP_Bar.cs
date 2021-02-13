@@ -15,7 +15,6 @@ public class HP_Bar : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
-        text.text = Player.hpChange.ToString();
+        text.text = "HP: " + Player.hpChange.ToString();
     }
 }

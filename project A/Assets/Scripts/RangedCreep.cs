@@ -38,7 +38,11 @@ public class RangedCreep : Character
 
         if (playerInSightRange && HP > 0) MoveToPlayer();
         else if (!playerInSightRange) Patrolling();
-        if (HP <= 0) Destroy(gameObject);
+        if (HP <= 0)
+        {
+            Destroy(gameObject);
+            Player.amount -= 1;
+        }
         if (speed_change == true)
         {
             agent.speed = 0;

@@ -7,4 +7,5 @@ public class Weapon : MonoBehaviour
     public float RateOfFire;
     public GameObject AmmoType;
     public GameObject WeaponType;
+    public int startAmmo;
 }
