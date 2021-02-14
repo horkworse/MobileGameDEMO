@@ -27,7 +27,7 @@ public class Player : Character
 
         if (hpChange <= 0f)
         {
-            Destroy(gameObject);
+            SceneManager.LoadScene(3);
         }
 
 
