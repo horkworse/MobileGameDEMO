@@ -7,7 +7,6 @@ public class DeathScene : MonoBehaviour
 {
     public void LoadMenu() //Загрузка сцены главного меню
     {
-        Debug.Log("Restart");
         SceneManager.LoadScene(2);
     }
 

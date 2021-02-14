@@ -6,13 +6,11 @@ using UnityEngine.UI;
 public class Level_Enemy : MonoBehaviour
 {
     private Text text;
-    // Start is called before the first frame update
     void Start()
     {
         text = GetComponent<Text>();
     }
 
-    // Update is called once per frame
     void Update()
     {
         text.text = "Remaining Enemies: " + Player.amount.ToString();
